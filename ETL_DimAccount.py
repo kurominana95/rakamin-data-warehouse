@@ -21,7 +21,7 @@ print(df.head)
 
 destination = pyodbc.connect(
         "DRIVER={SQL Server};"
-        "SERVER=LAPTOP-NJJ3I0H1\\SQL2025;"
+        "SERVER={SERVER-NAME};"
         "DATABASE=DWH;"
         "Trusted_Connection=yes;" 
 )
