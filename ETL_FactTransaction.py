@@ -3,7 +3,7 @@ import pandas as pd
 
 source = pyodbc.connect(
         "DRIVER={SQL Server};"
-        "SERVER=LAPTOP-NJJ3I0H1\\SQL2025;"
+        "SERVER={SERVER-NAME};"
         "DATABASE=sample;"
         "Trusted_Connection=yes;"
     )
@@ -60,7 +60,7 @@ print(df_fact_clean)
 
 destination = pyodbc.connect(
     "DRIVER={SQL Server};" 
-    "SERVER=LAPTOP-NJJ3I0H1\\SQL2025;" 
+    "SERVER={SERVER-NAME};" 
     "DATABASE=DWH;" 
     "Trusted_Connection=yes;" ) 
 
