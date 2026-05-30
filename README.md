@@ -31,7 +31,6 @@ The objectives of this project are:
 
 * pandas
 * pyodbc
-* openpyxl
 
 ### Database
 
@@ -121,6 +120,7 @@ Columns:
 ## Table Relationships
 
 The database follows the following relationships:
+
 <img width="622" height="287" alt="ERD baru (1)" src="https://github.com/user-attachments/assets/993d5271-0ff5-4bee-9c31-7af01d29de15" />
 
 ---
@@ -258,4 +258,4 @@ Run stored procedures in **SQL Server Management Studio (SSMS)**.
 ## Author
 
 **Najwa Khoir Aldawiyah**
-Statistics Graduate | Data Analytics | Data Engineering | Applied Research
+Statistics Graduate | Data Analytics | Data Engineering 
